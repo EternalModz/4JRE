@@ -39,3 +39,5 @@ void DrawTracer(float x, float y, float z)
     GlStateManager::disableBlend();
     GlStateManager::enableDepth();
 }
+
+void RENDER_HITBOX(bool toggle) { if (toggle) { *(int*)0xA5C594 = 0x2C030000; } else { *(int*)0xA5C594 = 0x2C030001; } }
