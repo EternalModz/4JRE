@@ -33,3 +33,9 @@ void createBox2DImg(float x, float y, float sX, float sY, float alpha, uint32_t 
 }
 
 createBox2DImg(40, 40, 128, 128, 150, finalIDtest);
+
+// Coloring (if needed)
+    customColors.r = 255;
+    customColors.g = 255;
+    customColors.b = 255;
+    customColors.a = 50; //Opacity
