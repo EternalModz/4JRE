@@ -9,3 +9,6 @@ A Minecraft PlayStation®3 CodeLib/Docs repo. 4JRE will hold research, example c
 ### Reversing/Development
 1. Reversing Software *Ghidra, IDA, etc.*
 2. PS3 Debugging Software *ProDG provides one, Universal Debugger works as well.*
+
+# Changelogs
+- Coming soon :3
