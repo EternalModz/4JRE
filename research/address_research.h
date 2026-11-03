@@ -40,4 +40,46 @@ namespace address_research
         // AnvilBlock::Anvil::Anvil(Level*, BlockPos const&)
         inline constexpr std::uintptr_t Constructor = 0x0001C5C8;
     }
+
+    namespace font
+    {
+        // sub_7100695888 -> Font::isCharacterSupported
+        inline constexpr std::uintptr_t IsCharacterSupported = 0x00695888;
+
+        // sub_71006958DC -> Font::mapCharacterToGlyphIndex
+        inline constexpr std::uintptr_t MapCharacterToGlyphIndex = 0x006958DC;
+    }
+
+    namespace tooltips
+    {
+        // sub_710054E4A4 -> UIComponent_Tooltips::updateTooltipSlot
+        inline constexpr std::uintptr_t UpdateTooltipSlot = 0x0054E4A4;
+
+        // sub_710040CFE0 -> FJ_ToolTip::setControllerActions
+        inline constexpr std::uintptr_t SetControllerActions = 0x0040CFE0;
+    }
+    
+    namespace leaf_styles
+    {
+        // Leaf styles
+        inline constexpr std::uintptr_t Styles = 0x00095770;
+    }
+
+    namespace main_menu
+    {
+        // Main menu buttons
+        inline constexpr std::uintptr_t Buttons = 0x0089194C;
+
+        // sub_F925F8
+        inline constexpr std::uintptr_t Unknown_F925F8 = 0x00F925F8;
+    }
+
+    namespace ui_sizing
+    {
+        // UI sizing - potentially useful for Bedrock-style buttons, I gotta confirm what these do later.
+        inline constexpr std::uintptr_t Sizing1 = 0x00890B14;
+        inline constexpr std::uintptr_t Sizing2 = 0x00890B24;
+        inline constexpr std::uintptr_t Sizing3 = 0x00890B1C;
+        inline constexpr std::uintptr_t Sizing4 = 0x00890B2C;
+    }
 }
