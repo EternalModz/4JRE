@@ -1,0 +1,31 @@
+AGPL-3.0 SECTION 7 ADDITIONAL TERMS
+
+Copyright © 2026 EternalModz.
+
+These additional terms apply to original material authored by EternalModz and licensed under the GNU Affero General Public License version 3.0 in this repository.
+
+These terms are imposed pursuant to Section 7 of the GNU Affero General Public License version 3.0.
+
+1. Preservation of Attribution
+
+Reasonable copyright, authorship, attribution, and legal notices identifying EternalModz as the original author or researcher must be preserved.
+
+2. Origin of the Work
+
+The origin and authorship of covered material must not be misrepresented.
+
+Modified or derivative versions must not represent themselves as the original unmodified work of EternalModz.
+
+3. Identification of Modified Versions
+
+Modified versions must be reasonably and prominently identified as modified.
+
+4. No Implied Endorsement
+
+The name EternalModz may not be used to imply endorsement of a modified version, derivative project, product, or service without separate permission.
+
+5. Trademarks
+
+No trademark rights are granted except where expressly stated otherwise.
+
+These additional terms supplement the GNU Affero General Public License version 3.0 only to the extent permitted by Section 7.

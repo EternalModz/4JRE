@@ -1,4 +1,4 @@
-# Minecraft LCE / 4J Custom Item Texture Gotcha
+# Minecraft LCE / 4J Custom Item Texture Quirk
 
 ## Problem
 

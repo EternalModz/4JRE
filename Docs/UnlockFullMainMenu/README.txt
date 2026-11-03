@@ -1,1 +1,0 @@
-This mod adds a button to the bottom of the main menu.

@@ -1,11 +1,14 @@
-// NOTICE
-// This file is dedicated to research and experimentation related to Minecraft.
-// Please note that the contents of this file are a work in progress and may not function as intended. 
-// It is intended solely for experimental purposes and research. 
-// Nothing in this file should be considered final unless explicitly stated otherwise.
-// Contributions are welcome, but please ensure proper credit is given if you use or reference any part of this work.
-
-// New options (WIP)
+/*
+ * Copyright (C) 2026 EternalModz
+ *
+ * SPDX-License-Identifier: AGPL-3.0-only
+ *
+ * Licensed under the GNU Affero General Public License v3.0 only.
+ * See LICENSE for the complete license terms.
+ *
+ * Additional terms permitted under AGPL-3.0 Section 7 apply.
+ * See LICENSES/AGPL-ADDITIONAL-TERMS.txt.
+ */
 
 // Toggle invis (this might be host-only)
 void ToggleInvisibility(bool toggle) 

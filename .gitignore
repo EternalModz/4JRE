@@ -1,32 +1,36 @@
-# Prerequisites
-*.d
+# Game binaries / dumps
+*.bin
+*.elf
+*.self
+*.sprx
+*.prx
+*.dump
+*.dmp
+EBOOT.BIN
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Reverse-engineering databases
+*.idb
+*.i64
+*.til
+*.nam
+*.id0
+*.id1
+*.id2
+*.ghidra
+*.rep
 
-# Precompiled Headers
-*.gch
-*.pch
+# Archives / large workspace files
+*.zip
+*.7z
+*.rar
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Python
+__pycache__/
+*.pyc
+.venv/
