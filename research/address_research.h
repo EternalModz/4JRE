@@ -19,7 +19,7 @@
 // from or informed by third-party research and reverse-engineering resources.
 //
 // Third-party research, symbols, and contributions are documented in the repository credits.
-// Attribution for specific findings should be preserved in accordance with in accordance with the applicable source.
+// Attribution for specific findings should be preserved in accordance with the applicable source.
 //
 // This file is a work in progress and may contain incomplete, inaccurate, or non-functional
 // information. Nothing should be considered final or verified unless explicitly stated otherwise.
@@ -72,6 +72,51 @@ namespace address_research
 
         // sub_F925F8
         inline constexpr std::uintptr_t Unknown_F925F8 = 0x00F925F8;
+    }
+
+    namespace settings_ui
+    {
+        // Confirmed real 4J names, cross-verified against Wii U symbols/decompilation.
+        inline constexpr std::uintptr_t FJ_List_addNewListItem = 0x007171E8;
+        inline constexpr std::uintptr_t FJ_List_MultiList_addNewItem_CheckBox = 0x00750EB0;
+        inline constexpr std::uintptr_t FJ_List_MultiList_addNewItem_Slider = 0x007510CC;
+
+        inline constexpr std::uintptr_t UIControl_List_getListIndex = 0x008D7BBC;
+        inline constexpr std::uintptr_t UIControl_List_addElement = 0x008D8AB8;
+        inline constexpr std::uintptr_t UIControl_MultiList_AddNewCheckbox = 0x008D8B6C;
+        inline constexpr std::uintptr_t UIControl_MultiList_AddNewSlider = 0x008D8C64;
+        inline constexpr std::uintptr_t UIControl_MultiList_GetCheckboxValue = 0x008DFC6C;
+        inline constexpr std::uintptr_t UIControl_List_CheckElementExists = 0x008FE748;
+
+        inline constexpr std::uintptr_t GameSettings_SetGameSettings = 0x00955124;
+
+        inline constexpr std::uintptr_t UIScene_SettingsListMenu_Init = 0x009960D0;
+        inline constexpr std::uintptr_t UIScene_SettingsListMenu_setGameSettings = 0x009972D8;
+        inline constexpr std::uintptr_t UIScene_SettingsListMenu_tick = 0x009979F0;
+        inline constexpr std::uintptr_t UIScene_SettingsListMenu_handleSliderElementMove = 0x00997EC8;
+
+        namespace likely
+        {
+            // Extremely strong Wii U -> PS3 matches.
+            // Keep separated until direct Wii U verification is complete.
+            inline constexpr std::uintptr_t FJ_CheckBox_Init = 0x0071DB08;
+            inline constexpr std::uintptr_t FJ_List_MultiList_GetCheckBox = 0x0075153C;
+            inline constexpr std::uintptr_t FJ_Slider_Init = 0x0079A1CC;
+        }
+
+        namespace reverse_engineered
+        {
+            // EternalModz descriptive nickname.
+            //
+            // Behavior:
+            //   localization key -> label
+            //   GameSettings::GetGameSettings(player, setting)
+            //   optional boolean inversion
+            //   UIControl_MultiList::AddNewCheckbox(...)
+            //
+            // Exact original 4J function name is currently unknown.
+            inline constexpr std::uintptr_t AddGameSettingCheckbox = 0x00F8BA54; // I'll rename later once I find it.
+        }
     }
 
     namespace ui_sizing
